@@ -28,7 +28,7 @@ Después de completar este laboratorio, podrá:
 
 En este ejercicio, importarás el repositorio [eShopOnWeb](https://github.com/MicrosoftLearning/eShopOnWeb) a tu cuenta de GitHub. El repositorio se organiza de la siguiente manera:
 
-| Carpeta | Contenido |
+| Folder | Contenido |
 | -- | -- |
 | **.ado** | Canalizaciones YAML de Azure DevOps |
 | **.devcontainer** | Configuración para desarrollar mediante contenedores (ya sea localmente en VS Code o en GitHub Codespaces) |
@@ -126,7 +126,7 @@ En esta tarea, modificarás el flujo de trabajo de GitHub *eshoponweb-cicd.yml* 
     | LOCATION: | `eastus` (O bien, la región que has seleccionado al crear el grupo de recursos). |
     | TEMPLATE-FILE: | Sin cambios |
     | SUBSCRIPTION-ID: | Tu Id. de suscripción. |
-    | WEBAPP-NAME: | El nombre de la aplicación WEP generado aleatoriamente que has creado anteriormente en el laboratorio. |
+    | WEBAPP-NAME: | El nombre de la aplicación web generado aleatoriamente que has creado anteriormente en el laboratorio. |
 
 1. Lee atentamente el flujo de trabajo, los comentarios se proporcionan para ayudarte a entender los pasos del flujo de trabajo.
 1. Quita la marca de comentario de la sección **on** en la parte superior del archivo mediante la eliminación de `#`. El flujo de trabajo se desencadena con cada inserción en la rama principal y también ofrece un desencadenamiento manual (`workflow_dispatch`).
