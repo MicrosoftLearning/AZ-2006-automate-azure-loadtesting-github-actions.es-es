@@ -97,7 +97,7 @@ En esta tarea, crearás un grupo de recursos y una entidad de seguridad de servi
     ```
     rgId=$(az group show -n az2006-rg --query "id" -o tsv)
 
-    az ad sp create-for-rbac --name GH-Action-eshoponweb --role contributor --scopes $rgId
+    az ad sp create-for-rbac --name GH-Action-eshoponweb --role contributor --scopes $rgId --json-auth true
     ```
 
     >**IMPORTANTE:** Este comando da salida a un objeto JSON que contiene los identificadores usados para autenticar en Azure en el nombre de una identidad Microsoft Entra (entidad de servicio). Copia el objeto JSON para usarlo en los siguientes pasos. 
