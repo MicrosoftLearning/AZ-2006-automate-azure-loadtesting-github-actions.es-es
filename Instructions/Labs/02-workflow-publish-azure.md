@@ -28,7 +28,7 @@ Después de completar este laboratorio, podrá:
 
 En este ejercicio, importarás el repositorio [eShopOnWeb](https://github.com/MicrosoftLearning/eShopOnWeb) a tu cuenta de GitHub. El repositorio se organiza de la siguiente manera:
 
-| Folder | Contenido |
+| Carpeta | Contenido |
 | -- | -- |
 | **.ado** | Canalizaciones YAML de Azure DevOps |
 | **.devcontainer** | Configuración para desarrollar mediante contenedores (ya sea localmente en VS Code o en GitHub Codespaces) |
