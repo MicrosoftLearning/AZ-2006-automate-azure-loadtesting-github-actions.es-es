@@ -1,26 +1,14 @@
 ---
-title: Instrucciones hospedadas en línea
+title: Automatización de Azure Load Testing con Acciones de GitHub
 permalink: index.html
 layout: home
 ---
 
-# Directorio de contenido
+Los siguientes ejercicios se han diseñado para brindarte una experiencia práctica de aprendizaje en la que implementarás flujos de trabajo y acciones de GitHub para automatizar la realización de una prueba de carga con Azure Load Testing. 
 
-La siguiente sección contiene hipervínculos a cada uno de los ejercicios del laboratorio.
+## Ejercicios
+<hr/>
 
-## Laboratorios
 
-{% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions/Labs'" %}
-| Módulo | Laboratorio |
-| --- | --- | 
-{% for activity in labs  %}| {{ activity.lab.module }} | [{{ activity.lab.title }}{% if activity.lab.type %} - {{ activity.lab.type }}{% endif %}]({{ site.github.url }}{{ activity.url }}) |
-{% endfor %}
-
-<!-- ## Demos
-
-{% assign demos = site.pages | where_exp:"page", "page.url contains '/Instructions/Demos'" %}
-| Module | Demo |
-| --- | --- | 
-{% for activity in demos  %}| {{ activity.demo.module }} | [{{ activity.demo.title }}]({{ site.github.url }}{{ activity.url }}) |
-{% endfor %}
- -->
+{% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions/Labs'" %} {% for activity in labs  %}
+* [{{ activity.lab.title }}]({{ site.github.url }}{{ activity.url }}) <br/> {{ activity.lab.description }} {% endfor %}
