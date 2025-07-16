@@ -218,7 +218,7 @@ Si hay problemas para que el flujo de trabajo se complete correctamente, selecci
 
     >**NOTA:** El flujo de trabajo puede tardar entre 5 y 10 minutos en completarse. La prueba se ejecuta durante dos minutos, y la prueba de carga puede tardar varios minutos en ponerse en cola e iniciarse en Azure. 
 
-Si hay problemas para que el flujo de trabajo se complete correctamente, selecciona el flujo de trabajo **Compilar y publicar** y después selecciona **compilar** en la siguiente pantalla. Proporcionará información detallada sobre el flujo de trabajo y puede ayudar a diagnosticar qué problema impedía que se completara correctamente.
+Si hay problemas para que el flujo de trabajo se complete correctamente, selecciona el flujo de trabajo **Prueba de carga** y después selecciona **compilar** en la siguiente pantalla. Proporcionará información detallada sobre el flujo de trabajo y puede ayudar a diagnosticar qué problema impedía que se completara correctamente.
 
 #### Opcionales
 
